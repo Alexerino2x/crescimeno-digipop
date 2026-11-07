@@ -1,0 +1,19 @@
+# Dados de cliente e exportações: nunca versionar
+*.xlsx
+*.xls
+*.csv
+*.sql
+*.sql.gz
+dados/
+exports/
+
+# Segredos
+.env
+.env.*
+*.pem
+*.key
+service-account*.json
+digipop-*.json
+
+# Sistema
+.DS_Store
